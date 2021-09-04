@@ -1,0 +1,99 @@
+@media (min-width: 992px) {
+	.hero {
+		text-align: left;
+
+		&_text {
+			font-size: 56px;
+		}
+
+		p {
+			font-size: 20px;
+		}
+	}
+
+	.skill {
+		text-align: left;
+	}
+
+	.portfolio {
+		text-align: left;
+
+		.slider {
+			&-body {
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				display: grid;
+				align-content: center;
+			}
+		}
+
+		.swiper {
+
+			&_header {
+				font-size: 40px;
+			}
+		}
+	}
+
+	.work {
+		&_left {
+			&_header {
+				font-size: 48px;
+			}
+
+			&_body{
+				font-size: 18px;
+			}
+		}
+	}
+}
+
+
+@media (max-width: 991px) {
+	.portfolio {
+		.swiper-button {
+
+			&-prev,
+			&-next {
+				display: none;
+			}
+		}
+	}
+}
+
+
+@media (min-width: 768px) {
+	nav {
+		background: transparent;
+	}
+
+	.hero_btn {
+		margin-bottom: 60px;
+	}
+
+	.story {
+		&_body {
+			text-align: left;
+		}
+	}
+
+	.work {
+		text-align: left;
+	}
+
+	.contact {
+		&_user {
+			h2 {
+				font-size: 25px;
+			}
+
+			p {
+				font-size: 15px;
+				font-weight: 300;
+			}
+		}
+	}
+}

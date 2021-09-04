@@ -1,0 +1,13 @@
+@keyframes play_animation {
+	0% {
+		box-shadow: 0 0 0 0px $wh;
+	}
+
+	50% {
+		box-shadow: 0 0 0 10px rgba($wh, .5);
+	}
+
+	100% {
+		box-shadow: 0 0 0 20px rgba($wh, 0);
+	}
+}

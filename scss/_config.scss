@@ -1,0 +1,28 @@
+$pc: #d43030;
+$sc: #000;
+$tc: #202020;
+$wh: #fff;
+$roboto: 'Roboto', sans-serif;
+$mont: 'Montserrat', sans-serif;
+
+
+@mixin global_btn($color, $hoColor, $boColor) {
+	border: 2px solid $boColor;
+	color: $color;
+	padding: 15px 45px;
+	border-radius: 50px;
+	font-weight: 700;
+	text-transform: capitalize;
+	transition: all .6s ease;
+	display: inline-block;
+
+	&:hover {
+		color: $hoColor;
+		background-color: $color;
+	}
+
+	@media (max-width: 768px) {
+		font-size: 14px;
+
+	}
+}
